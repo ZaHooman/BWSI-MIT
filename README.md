@@ -27,7 +27,8 @@ Our Team:
 
 
 <h1>Development Process<\h1>
-<h3> Step 1: Download Software <\h3>
+<h3> Step 1: Download Software <h3>
+
 
 Download: https://code.visualstudio.com/ (Mac, Linux, Windows), https://code.visualstudio.com/download (MacOS)
 
