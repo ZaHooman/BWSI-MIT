@@ -36,6 +36,7 @@ Download: https://code.visualstudio.com/ (Mac, Linux, Windows), https://code.vis
 
 Here’s an example of the manifest.json configuration for our extension:
 
+```json
 {
     "manifest_version": 3,
     "name": "Cookie_Lexic",
@@ -44,22 +45,21 @@ Here’s an example of the manifest.json configuration for our extension:
     "action": {
         "default_popup": "popup/popup.html"
     },
-    "icons":{
+    "icons": {
         "16": "images/icon-16.png",
         "32": "images/icon-32.png",
         "128": "images/icon-128.png"
     },
-    "background":{
+    "background": {
         "scripts": ["background.js"]
-        
     },
-    
     "permissions": [
         "storage",
         "scripting",
         "activeTab"
     ]
 }
+```
 
 This file lets Chrome recognize the program as an extension, set up the popup, and initialize the background script.
 
@@ -92,12 +92,13 @@ Create an images/ folder within your extension’s directory.
 Place the three versions of your icon in this folder.
 Reference the Images in the manifest.json File: In your manifest.json, reference the images by specifying the paths under the "icons" key, as shown below:
 
+```json
 "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
     "128": "images/icon-128.png"
 }
-
+```
 <h1>Conclusion</h1>
 
 We’re excited to share Cookie_Lexic, a web extension we created with the goal of helping individuals with dyslexia by offering features like font changes, text size adjustments, and color/overlay selections. Through the development process, we’ve learned how to integrate various technologies such as HTML, CSS, JavaScript, and custom fonts to make a functional and user-friendly extension. While we’re still refining security and troubleshooting technical aspects, the extension is already proving to be a valuable tool.
