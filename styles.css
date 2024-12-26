@@ -1,0 +1,11 @@
+echo "body { background-color: #f0f0f0; }" > styles.css
+
+git add styles.css
+git commit -m "Add styles.css to trigger CSS language detection"
+git push origin main
+
+echo "/* Update to trigger reanalysis */" >> styles.css
+git add styles.css
+git commit -m "Trigger CSS language reanalysis"
+git push origin main
+
