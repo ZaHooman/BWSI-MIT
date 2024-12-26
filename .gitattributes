@@ -1,19 +1,20 @@
-# Detect C++ files
-*.cpp linguist-detectable=true
-*.hpp linguist-detectable=true
-*.h linguist-detectable=true
+touch .gitattributes
+
+# Detect CSS files
+*.css linguist-detectable=true
 
 # Exclude binary and non-source files from language stats
-*.o linguist-vendored
-*.a linguist-vendored
-*.lib linguist-vendored
-*.exe linguist-vendored
-*.obj linguist-vendored
-*.zip linguist-vendored
 *.png linguist-vendored
 *.jpg linguist-vendored
+*.gif linguist-vendored
+*.svg linguist-vendored
+*.woff linguist-vendored
+*.ttf linguist-vendored
+*.eot linguist-vendored
+*.otf linguist-vendored
+*.zip linguist-vendored
 *.md linguist-documentation
 
 git add .gitattributes
-git commit -m "Add .gitattributes for C++ language detection"
+git commit -m "Add .gitattributes for CSS language detection"
 git push origin main
