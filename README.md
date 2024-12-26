@@ -1,4 +1,4 @@
-<h1>Cookie_Lexic</h1>
+<h1>🍪 Cookie_Lexic</h1>
 
 <h3>⭐ Team 459: GV Stars</h3>
 
