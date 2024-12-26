@@ -84,9 +84,9 @@ Write the JavaScript to handle the functionality of the buttons, sliders, and ot
 To ensure your extension displays correctly across different devices, you will need to add images to your project. These images will serve as icons for the extension in the browser toolbar and for the extension's interface.
 
 You’ll need three versions of your extension's logo/icon in the following sizes:
-128x128 pixels (used for Chrome Web Store and larger device screens)
-32x32 pixels (used for the extension page and high-resolution displays)
-16x16 pixels (used for the browser toolbar and smaller screen resolutions)
+* 128x128 pixels (used for Chrome Web Store and larger device screens)
+* 32x32 pixels (used for the extension page and high-resolution displays)
+* 16x16 pixels (used for the browser toolbar and smaller screen resolutions)
 
 Create an images/ folder within your extension’s directory.
 Place the three versions of your icon in this folder.
