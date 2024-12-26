@@ -67,7 +67,7 @@ This file lets Chrome recognize the program as an extension, set up the popup, a
 
 Many of the imports we used were css imports from bulma that can be found here: https://bulma.io/
 
-We also imported the OpenDyslexic Font for improved readability for users with dyslexia. You can download it from: https://antijingoist.itch.io/opendyslexic/download/eyJpZCI6MjU4NTk5MSwiZXhwaXJlcyI6MTczNTI1NDM1OX0%3d.mDKwTjt7RPneSjFQeLQnuS1%2bX3M%3d
+We also imported the OpenDyslexic Font for improved readability for users with dyslexia. You can download it from: https://antijingoist.itch.io/opendyslexic/download/eyJpZCI6MjU4NTk5MSwiZXhwaXJlcyI6MTczNTI1NDM1OX0%3d.mDKwTjt7RPneSjFQeLQnuS1%2bX3M%3d (scroll down a bit)
 
 Be Mindful: .otf files tend to work with windows devices, while .ttf are more compatible with macOS
 
