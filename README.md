@@ -1,6 +1,6 @@
 <h1>Cookie_Lexic</h1>
 
-<h3>Team 459: GV Stars</h3>
+<h3>⭐ Team 459: GV Stars</h3>
 
 Overview:
 Hello! This GitHub contains all the code we used in our extension; Cookie_Lexic
@@ -26,7 +26,7 @@ Our Team:
 - Ananya Nakka  ananyanakka@garnetvalley.org
 
 
-<h1>Development Process<h1>
+<h1>🔨 Development Process<h1>
 <h3> Step 1: Download Software </h3>
 
 
@@ -99,7 +99,7 @@ Reference the Images in the manifest.json File: In your manifest.json, reference
     "128": "images/icon-128.png"
 }
 ```
-<h1>Conclusion</h1>
+<h1> 🌐 Conclusion</h1>
 
 We’re excited to share Cookie_Lexic, a web extension we created with the goal of helping individuals with dyslexia by offering features like font changes, text size adjustments, and color/overlay selections. Through the development process, we’ve learned how to integrate various technologies such as HTML, CSS, JavaScript, and custom fonts to make a functional and user-friendly extension. While we’re still refining security and troubleshooting technical aspects, the extension is already proving to be a valuable tool.
 
